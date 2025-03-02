@@ -98,26 +98,26 @@
     <?php endif; ?>
     <!--snrat END-->
     
-    <!--jsdelivr-CN-->
-    <?php if (strcmp($this->options->CDN,"jsdelivr-CN")==0): ?>
+    <!--jsdmirror-->
+    <?php if (strcmp($this->options->CDN,"jsdmirror")==0): ?>
     <link rel="stylesheet" href="//cdn.jsdmirror.com/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdn.jsdmirror.com/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <?php endif; ?>
-    <!--jsdelivr-CN END-->
+    <!--jsdmirror END-->
     
-    <!--jsdelivr-JP-->
-    <?php if (strcmp($this->options->CDN,"jsdelivr-JP")==0): ?>
+    <!--fastly-->
+    <?php if (strcmp($this->options->CDN,"fastly")==0): ?>
     <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="//fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <?php endif; ?>
-    <!--jsdelivr-JP END-->
+    <!--fastly END-->
     
-    <!--jsdelivr-CF-->
-    <?php if (strcmp($this->options->CDN,"jsdelivr-CF")==0): ?>
+    <!--gcore-->
+    <?php if (strcmp($this->options->CDN,"gcore")==0): ?>
     <link rel="stylesheet" href="//gcore.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="//gcore.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <?php endif; ?>
-    <!--jsdelivr-CF END-->
+    <!--gcore END-->
     
     <!--jsdelivr-->
     <?php if (strcmp($this->options->CDN,"jsdelivr")==0): ?>

@@ -347,16 +347,17 @@
             array(
                 'local' => _t('本地模式'),
                 '75cdn' => _t('75CDN(360)'),
+                'cdnjs' => _t('cdnjs'),
                 'zstatic' => _t('zstatic'),
                 'snrat' => _t('snrat'),
-                'jsdelivr-CN' => _t('jsdelivr-CN(jsdmirror源)'),
-                'jsdelivr-JP' => _t('jsdelivr-JP(fastly源)'),
-                'jsdelivr-CF' => _t('jsdelivr-CF(gcore源)'),
-                'jsdelivr' => _t('jsdelivr(官方源)'),
+                'jsdmirror' => _t('jsdmirror'),
+                'fastly' => _t('fastly'),
+                'gcore' => _t('gcore'),
+                'jsdelivr' => _t('jsdelivr'),
             ),
            'local',
             _t('CDN 设置'),
-            _t('建议使用: 75cdn、zstatic、snrat、jsdmirror，本地模式是为了防止第三方CDN故障的应急方案')
+            _t('建议使用: bytedance、75cdn、zstatic、snrat、jsdmirror，本地模式是为了防止第三方CDN故障的应急方案')
         );
         $form->addInput($CDN);
 		

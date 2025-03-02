@@ -39,32 +39,32 @@
     <?php endif; ?>
     <!--snrat END-->
     
-    <!--jsdelivr-CN-->
-    <?php if (strcmp($this->options->CDN,"jsdelivr-CN")==0): ?>
+    <!--jsdmirror-->
+    <?php if (strcmp($this->options->CDN,"jsdmirror")==0): ?>
     <script src="//cdn.jsdmirror.com/gh/jquery/jquery@3.1.1/dist/jquery.min.js"></script>
     <script src="//cdn.jsdmirror.com/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
     <script src="//cdn.jsdmirror.com/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="//cdn.jsdmirror.com/npm/lazyload@1.8.4/jquery.lazyload.min.js"></script>
     <?php endif; ?>
-    <!--jsdelivr-CN END-->
+    <!--jsdmirror END-->
     
-    <!--jsdelivr-JP-->
-    <?php if (strcmp($this->options->CDN,"jsdelivr-JP")==0): ?>
+    <!--fastly-->
+    <?php if (strcmp($this->options->CDN,"fastly")==0): ?>
     <script src="//fastly.jsdelivr.net/gh/jquery/jquery@3.1.1/dist/jquery.min.js"></script>
     <script src="//fastly.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
     <script src="//fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="//fastly.jsdelivr.net/npm/lazyload@1.8.4/jquery.lazyload.min.js"></script>
     <?php endif; ?>
-    <!--jsdelivr-JP END-->
+    <!--fastly END-->
     
-    <!--jsdelivr-CF-->
-    <?php if (strcmp($this->options->CDN,"jsdelivr-CF")==0): ?>
+    <!--gcore-->
+    <?php if (strcmp($this->options->CDN,"gcore")==0): ?>
     <script src="//gcore.jsdelivr.net/gh/jquery/jquery@3.1.1/dist/jquery.min.js"></script>
     <script src="//gcore.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
     <script src="//gcore.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="//gcore.jsdelivr.net/npm/lazyload@1.8.4/jquery.lazyload.min.js"></script>
     <?php endif; ?>
-    <!--jsdelivr-CF END-->
+    <!--gcore END-->
 	
 	<!--jsdelivr-->
     <?php if (strcmp($this->options->CDN,"jsdelivr")==0): ?>
