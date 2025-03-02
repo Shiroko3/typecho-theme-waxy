@@ -89,7 +89,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <?php endif; ?>
-    <!--zstatic END-->
+    <!--cdnjs END-->
 	
     <!--zstatic-->
     <?php if (strcmp($this->options->CDN,"zstatic")==0): ?>
