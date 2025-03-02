@@ -12,15 +12,6 @@
 
     <a id="back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
     
-    <!--staticfile-->
-    <?php if (strcmp($this->options->CDN,"staticfile")==0): ?>
-    <script src="//cdn.staticfile.org/jquery/3.1.1/jquery.min.js"></script>
-    <script src="//cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="//cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <script src="//cdn.staticfile.org/jquery_lazyload/1.8.4/jquery.lazyload.min.js"></script>
-    <?php endif; ?>
-    <!--staticfile END-->
-	
     <!--75cdn-->
     <?php if (strcmp($this->options->CDN,"75cdn")==0): ?>
     <script src="//lib.baomitu.com/jquery/3.1.1/jquery.min.js"></script>
@@ -29,15 +20,51 @@
     <script src="//lib.baomitu.com/jquery.lazyload/1.8.4/jquery.lazyload.min.js"></script>
     <?php endif; ?>
     <!--75cdn END-->
-
-    <!--bootcss-->
-    <?php if (strcmp($this->options->CDN,"bootcss")==0): ?>
-    <script src="//cdn.bootcdn.net/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="//cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="//cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <script src="//cdn.bootcdn.net/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+	
+    <!--zstatic-->
+    <?php if (strcmp($this->options->CDN,"zstatic")==0): ?>
+    <script src="//s4.zstatic.net/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//s4.zstatic.net/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//s4.zstatic.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="//s4.zstatic.net/ajax/libs/jquery.lazyload/1.8.4/jquery.lazyload.min.js"></script>
     <?php endif; ?>
-	<!--bootcss END-->
+    <!--zstatic END-->
+    
+    <!--snrat-->
+    <?php if (strcmp($this->options->CDN,"snrat")==0): ?>
+    <script src="//cdnjs.snrat.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.snrat.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.snrat.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="//cdnjs.snrat.com/ajax/libs/jquery.lazyload/1.8.4/jquery.lazyload.min.js"></script>
+    <?php endif; ?>
+    <!--snrat END-->
+    
+    <!--jsdelivr-CN-->
+    <?php if (strcmp($this->options->CDN,"jsdelivr-CN")==0): ?>
+    <script src="//cdn.jsdmirror.com/gh/jquery/jquery@3.1.1/dist/jquery.min.js"></script>
+    <script src="//cdn.jsdmirror.com/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdmirror.com/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="//cdn.jsdmirror.com/npm/lazyload@1.8.4/jquery.lazyload.min.js"></script>
+    <?php endif; ?>
+    <!--jsdelivr-CN END-->
+    
+    <!--jsdelivr-JP-->
+    <?php if (strcmp($this->options->CDN,"jsdelivr-JP")==0): ?>
+    <script src="//fastly.jsdelivr.net/gh/jquery/jquery@3.1.1/dist/jquery.min.js"></script>
+    <script src="//fastly.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="//fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="//fastly.jsdelivr.net/npm/lazyload@1.8.4/jquery.lazyload.min.js"></script>
+    <?php endif; ?>
+    <!--jsdelivr-JP END-->
+    
+    <!--jsdelivr-CF-->
+    <?php if (strcmp($this->options->CDN,"jsdelivr-CF")==0): ?>
+    <script src="//gcore.jsdelivr.net/gh/jquery/jquery@3.1.1/dist/jquery.min.js"></script>
+    <script src="//gcore.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="//gcore.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="//gcore.jsdelivr.net/npm/lazyload@1.8.4/jquery.lazyload.min.js"></script>
+    <?php endif; ?>
+    <!--jsdelivr-CF END-->
 	
 	<!--jsdelivr-->
     <?php if (strcmp($this->options->CDN,"jsdelivr")==0): ?>

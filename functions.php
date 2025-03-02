@@ -345,15 +345,18 @@
     	$CDN = new Typecho_Widget_Helper_Form_Element_Radio(
             'CDN',
             array(
-                'local' => _t('本地'),
-		'staticfile' => _t('Staticfile'),
+                'local' => _t('本地模式'),
                 '75cdn' => _t('75CDN(360)'),
-                'bootcss' => _t('Bootcss'),
-                'jsdelivr' => _t('jsDelivr'),
+                'zstatic' => _t('zstatic'),
+                'snrat' => _t('snrat'),
+                'jsdelivr-CN' => _t('jsdelivr-CN(jsdmirror源)'),
+                'jsdelivr-JP' => _t('jsdelivr-JP(fastly源)'),
+                'jsdelivr-CF' => _t('jsdelivr-CF(gcore源)'),
+                'jsdelivr' => _t('jsdelivr(官方源)'),
             ),
            'local',
             _t('CDN 设置'),
-            _t('国外建议使用jsDelivr，国内建议使用Bootcss，本地模式纯粹是为了防止CDN挂了的应急方案')
+            _t('建议使用: 75cdn、zstatic、snrat、jsdmirror，本地模式是为了防止第三方CDN故障的应急方案')
         );
         $form->addInput($CDN);
 		

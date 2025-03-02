@@ -77,13 +77,6 @@
     <?php endif; ?>
     <!-- Loading END -->
     
-    <!--staticfile-->
-    <?php if (strcmp($this->options->CDN,"staticfile")==0): ?>
-    <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css">
-    <?php endif; ?>
-    <!--staticfile END-->
-    
     <!--75cdn-->
     <?php if (strcmp($this->options->CDN,"75cdn")==0): ?>
     <link rel="stylesheet" href="//lib.baomitu.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
@@ -91,12 +84,40 @@
     <?php endif; ?>
     <!--75cdn END-->
 	
-    <!--bootcss-->
-    <?php if (strcmp($this->options->CDN,"bootcss")==0): ?>
-    <link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <!--zstatic-->
+    <?php if (strcmp($this->options->CDN,"zstatic")==0): ?>
+    <link rel="stylesheet" href="//s4.zstatic.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//s4.zstatic.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <?php endif; ?>
-    <!--bootcss END-->
+    <!--zstatic END-->
+    
+    <!--snrat-->
+    <?php if (strcmp($this->options->CDN,"snrat")==0): ?>
+    <link rel="stylesheet" href="//cdnjs.snrat.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.snrat.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <?php endif; ?>
+    <!--snrat END-->
+    
+    <!--jsdelivr-CN-->
+    <?php if (strcmp($this->options->CDN,"jsdelivr-CN")==0): ?>
+    <link rel="stylesheet" href="//cdn.jsdmirror.com/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.jsdmirror.com/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <?php endif; ?>
+    <!--jsdelivr-CN END-->
+    
+    <!--jsdelivr-JP-->
+    <?php if (strcmp($this->options->CDN,"jsdelivr-JP")==0): ?>
+    <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//fastly.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <?php endif; ?>
+    <!--jsdelivr-JP END-->
+    
+    <!--jsdelivr-CF-->
+    <?php if (strcmp($this->options->CDN,"jsdelivr-CF")==0): ?>
+    <link rel="stylesheet" href="//gcore.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//gcore.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <?php endif; ?>
+    <!--jsdelivr-CF END-->
     
     <!--jsdelivr-->
     <?php if (strcmp($this->options->CDN,"jsdelivr")==0): ?>
