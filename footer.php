@@ -20,6 +20,15 @@
     <script src="//lib.baomitu.com/jquery.lazyload/1.8.4/jquery.lazyload.min.js"></script>
     <?php endif; ?>
     <!--75cdn END-->
+
+    <!--cdnjs-->
+    <?php if (strcmp($this->options->CDN,"cdnjs")==0): ?>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.8.4/jquery.lazyload.min.js"></script>
+    <?php endif; ?>
+    <!--cdnjs END-->
 	
     <!--zstatic-->
     <?php if (strcmp($this->options->CDN,"zstatic")==0): ?>

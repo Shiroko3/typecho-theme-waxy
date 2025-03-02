@@ -357,7 +357,7 @@
             ),
            'local',
             _t('CDN 设置'),
-            _t('建议使用: bytedance、75cdn、zstatic、snrat、jsdmirror，本地模式是为了防止第三方CDN故障的应急方案')
+            _t('建议使用: 75cdn、zstatic、snrat、jsdmirror，本地模式是为了防止第三方CDN故障的应急方案')
         );
         $form->addInput($CDN);
 		
